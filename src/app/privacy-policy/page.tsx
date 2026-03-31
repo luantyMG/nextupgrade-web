@@ -48,6 +48,29 @@ export default function PrivacyPolicy() {
           </ul>
         </div>
 
+        {/* PERMISOS */}
+        <div className="space-y-4">
+          <h2 className="text-white text-xl font-semibold">
+            Permisos del dispositivo
+          </h2>
+
+          <p>
+            La aplicación ConectED puede solicitar permisos del dispositivo para
+            ofrecer funcionalidades específicas:
+          </p>
+
+          <ul className="list-disc list-inside space-y-2">
+            <li>Cámara: para capturar fotografías dentro de la aplicación</li>
+            <li>Almacenamiento / galería: para seleccionar imágenes existentes</li>
+            <li>Notificaciones: para enviar avisos en tiempo real</li>
+          </ul>
+
+          <p>
+            Estos permisos se solicitan únicamente cuando son necesarios para el
+            funcionamiento de la aplicación.
+          </p>
+        </div>
+
         {/* FINALIDAD */}
         <div className="space-y-4">
           <h2 className="text-white text-xl font-semibold">
@@ -80,6 +103,12 @@ export default function PrivacyPolicy() {
             Las imágenes y archivos pueden almacenarse en servicios externos de
             almacenamiento en la nube que cumplen con estándares
             internacionales de seguridad.
+          </p>
+
+          <p>
+            Para el funcionamiento de ciertas características, ConectED puede
+            utilizar servicios de terceros como plataformas de notificaciones
+            y servicios en la nube (por ejemplo, Firebase).
           </p>
 
           <p>
@@ -133,15 +162,33 @@ export default function PrivacyPolicy() {
 
           <p>
             Los usuarios pueden solicitar acceso, rectificación o eliminación
-            de sus datos directamente ante la Institución educativa que
-            administra la cuenta.
+            de sus datos.
+          </p>
+
+          <p>Para eliminar su información, pueden:</p>
+
+          <ul className="list-disc list-inside space-y-2">
+            <li>Solicitarlo directamente a la institución educativa</li>
+            <li>Contactar al correo de soporte indicado en esta política</li>
+          </ul>
+        </div>
+
+        {/* CAMBIOS */}
+        <div className="space-y-4">
+          <h2 className="text-white text-xl font-semibold">
+            7. Cambios a esta política
+          </h2>
+
+          <p>
+            Nos reservamos el derecho de actualizar esta Política de Privacidad
+            en cualquier momento. Se recomienda revisar periódicamente esta sección.
           </p>
         </div>
 
         {/* CONTACTO */}
         <div className="space-y-4">
           <h2 className="text-white text-xl font-semibold">
-            7. Contacto
+            8. Contacto
           </h2>
 
           <p>
