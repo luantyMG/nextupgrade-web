@@ -1,7 +1,7 @@
 export default function PrivacyPolicy() {
   return (
     <section className="max-w-4xl mx-auto px-6 py-24 space-y-12">
-      <h1 className="text-4xl font-bold">Política de Privacidad</h1>
+      <h1 className="text-4xl font-bold text-zinc-400">Política de Privacidad</h1>
 
       <p className="text-zinc-400">
         Última actualización: {new Date().toLocaleDateString()}
