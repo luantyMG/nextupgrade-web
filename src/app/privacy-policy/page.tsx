@@ -197,7 +197,7 @@ export default function PrivacyPolicy() {
           </p>
 
           <p className="text-white font-medium">
-            soporte.nextupgrade@gmail.com
+            soporte@nextupgrade.com.mx
           </p>
 
           <p>México</p>
