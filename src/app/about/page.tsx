@@ -4,7 +4,7 @@ export default function About() {
 
       {/* HERO */}
       <div className="space-y-6 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold">
+        <h1 className="text-4xl md:text-5xl font-bold text-zinc-400">
           Impulsamos el futuro digital de la educación
         </h1>
 

@@ -27,7 +27,7 @@ export default function Connected() {
 
         </div>
 
-        <h1 className="text-5xl md:text-6xl font-semibold tracking-tight">
+        <h1 className="text-5xl md:text-6xl font-semibold tracking-tight text-zinc-400">
           ConectED
         </h1>
 
